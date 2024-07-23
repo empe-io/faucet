@@ -57,16 +57,14 @@
         selectNet: async function (network) {
 
             if (network == "testnet"){
-               // storage.setStorageSync("chainId", "osmo-test-1");
                 this.isTestnet = true;
-                this.chainId = "osmo-test-4";
-                this.rpcEndpoint = "https://rpc-test.osmosis.zone";
+                this.chainId = "empe-testnet-2";
+                this.rpcEndpoint = "https://rpc-testnet.empe.io/";
 
             }else if(network == "mainnet") {
-              //  storage.setStorageSync("chainId", "osmosis-1");
               this.isTestnet = false;
-              this.chainId = "osmosis-1";
-                this.rpcEndpoint = "https://rpc.osmosis.zone";
+              this.chainId = "empe-1";
+                this.rpcEndpoint = "https://rpc.empe.io";
             }
 
         }
@@ -86,14 +84,13 @@
   margin-top: 60px;
 }
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('assets/bk.jpg');
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   color: #fff !important;
   font-family: 'Prompt', sans-serif !important;
-  background-color: #241e45 !important;
+  background-color: #191B26 !important;
 }
 .card {
   background-color: rgba(42, 56, 162, 0.5) !important;

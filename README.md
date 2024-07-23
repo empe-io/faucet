@@ -1,4 +1,4 @@
-# Osmosis Faucet
+# Empe Faucet
 This is work in progress, please see docs in fe and backend folder. 
 
 ### Frontend
